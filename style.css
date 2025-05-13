@@ -1,0 +1,68 @@
+body {
+	font-family: Gill sans;
+	color: #CBD2D5;
+	background-color: #262626;
+}
+nav {
+	background-color: #245173;
+	list-style-type: none;
+	color: #70B0E1;
+}
+
+a {
+    text-decoration: none;
+    color: #70B0E1;
+ }
+
+a:hover {
+    color: #262626;
+}
+
+h2 {
+	padding-top: 150px;
+	float: center;
+	color: white;
+	text-align: center;s
+}
+
+footer{
+    color: gray;
+    text-align: center;
+}
+    
+img {
+	border-radius: 15px;
+}
+
+.table {
+	width: 600px;
+}
+
+.ccontainer {
+	padding-right: 5px;
+}
+
+.ccccontainer {
+	padding-bottom: 70px;
+}
+
+.btn {
+	background-color: #70B0E1;
+  	color: #262626;
+  	margin-left: 5px;
+}	
+
+.btn:hover {
+	background-color: #262626;
+  	color: #CBD2D5;
+}	
+
+.custom-card {
+  	width: 100%;
+  	max-width: 400px;
+  	background-color: white;
+  	border-radius: 15px;
+  	color: #262626;
+}
+
+

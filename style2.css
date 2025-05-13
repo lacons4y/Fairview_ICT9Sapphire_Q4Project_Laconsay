@@ -1,0 +1,40 @@
+body {
+  font-family: Gill sans;
+  color: #CBD2D5;
+  background-color: #262626;
+}
+nav {
+  background-color: #245173;
+  list-style-type: none;
+  color: #70B0E1;
+}
+
+a {
+    text-decoration: none;
+    color: #70B0E1;
+ }
+
+a:hover {
+    color: #262626;
+}
+
+footer{
+    color: gray;
+    text-align: center;
+}
+
+img {
+  border-radius: 15px;
+}
+    
+
+.btn {
+  background-color: #70B0E1;
+    color: #262626;
+    margin-left: 5px;
+} 
+
+.btn:hover {
+  background-color: #262626;
+    color: #CBD2D5;
+} 
