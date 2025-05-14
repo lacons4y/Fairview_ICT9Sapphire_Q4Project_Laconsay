@@ -11,13 +11,15 @@
 <style>
 .container {
     background-color: #70B0E1;
-    padding: 20px 20px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20px;
     align-items: center;
-    text-align: left;
     border-radius: 15px;
+    height: 500px;
+}
+
+.container img {
+    padding-bottom: 0px;
 }
 
 h3 {
@@ -27,10 +29,7 @@ h3 {
 button {
     background-color: #70B0E1;
     color: #262626;
-    padding: 16px 22px;
-    margin: 10px;
-    width: 150px;
-    border-radius: 12px;
+    border-radius: 15px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -81,6 +80,12 @@ button:hover {
     flex-wrap: wrap;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.product-grid button {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
 </style>
 <body>
     <header>
@@ -104,14 +109,17 @@ button:hover {
     </form>
 </div>
     </nav>
+<br><br>
+<br><br>
+<br><br>
         <main>
-        <header>
-        <div class="container" class="col-md-6">
-            <h2>Experience the flavors of Bicol right where you are.</h2>
-           <img src= "https://www.remotelands.com/storage/media/3533/conversions/b160927004-banner-size.jpg"  class="float-end" width="400px">
-        </div>
-    </header>
-<br>
+<center>
+<div class="container" class="col-md-6">
+    <img src= "https://www.remotelands.com/storage/media/3533/conversions/b160927004-banner-size.jpg" width="400px">
+    <h2>Experience the flavors of Bicol right where you are.</h2>
+</div>
+</center>
+<br><br>
 <section class="product-grid">
     <h3>BREAKFAST</h3>
     <div class="products">
